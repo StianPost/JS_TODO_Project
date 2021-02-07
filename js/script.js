@@ -16,6 +16,7 @@ addBtn.onclick = function (event) {
   <h2>Todo: ${todoItem.value}</h2>
 </div>
   `;
+  todoItem.value = '';
 };
 
 removeBtn.onclick = function (event) {
