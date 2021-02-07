@@ -11,8 +11,15 @@ addBtn.onclick = function (event) {
     itemClass = 'even';
   }
   document.querySelector('#itemsList').innerHTML += `
-  <div class=${itemClass}">
-  <h2>${todoItem.value}</h2>
+  <div class="${itemClass}">
+  <h2>Number: ${count} </h2>
+  <h2>Todo: ${todoItem.value}</h2>
 </div>
   `;
+};
+
+removeBtn.onclick = function (event) {
+  event.preventDefault();
+  document.querySelector('#itemsList').innerHTML = ``;
+  count = 0;
 };

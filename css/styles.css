@@ -1,6 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formDiv {
+  width: 80%;
+  margin: auto;
+  border: black 2px solid;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBtn {
+  border: green 2px solid;
+  font-weight: bold;
+}
+.removeBtn {
+  border: red 2px solid;
+  font-weight: bold;
+}
+
+.addBtn,
+.removeBtn {
+  background-color: white;
+  font-size: 1rem;
+  height: 30px;
+  padding: 0px 5px;
+}
+.todoInput {
+  background-color: white;
+  font-size: 1rem;
+  height: 26px;
+}
+
 .odd {
-  background-color: green;
+  background-color: lightblue;
 }
 .even {
-  background-color: red;
+  background-color: lightgreen;
+}
+
+.odd,
+.even {
+  width: 80%;
+  margin: auto;
+  margin-top: 5px;
+  border: black 2px solid;
+  border-radius: 5px;
+  min-height: 50px;
+}
+.odd h2,
+.even h2 {
+  margin-left: 5px;
 }

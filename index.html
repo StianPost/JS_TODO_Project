@@ -11,11 +11,22 @@
   <body>
     <header></header>
     <main>
-      <div>
+      <div class="formDiv">
         <form action="">
-          <input type="text" name="todo" id="todoItem" placeholder="Todo:" />
-          <input type="submit" id="addItem" value="Add" />
-          <input type="submit" id="removeItem" value="Remove" />
+          <input
+            type="text"
+            class="todoInput"
+            name="todo"
+            id="todoItem"
+            placeholder="Todo:"
+          />
+          <input type="submit" class="addBtn" id="addItem" value="Add" />
+          <input
+            type="submit"
+            class="removeBtn"
+            id="removeItem"
+            value="Remove ALL"
+          />
         </form>
       </div>
       <div class="itemsList" id="itemsList"></div>
