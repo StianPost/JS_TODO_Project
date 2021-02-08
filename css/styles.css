@@ -3,8 +3,7 @@
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.formDiv,
-v {
+.formDiv {
   width: 80%;
   margin: auto;
   border: black 2px solid;
@@ -25,10 +24,22 @@ v {
 
 .addBtn,
 .removeBtn {
-  background-color: white;
+  color: white;
   font-size: 1rem;
   height: 30px;
   padding: 0px 5px;
+  border-radius: 5px;
+}
+.addBtn {
+  background-color: green;
+}
+.removeBtn {
+  background-color: red;
+}
+.addBtn:hover,
+.removeBtn:hover {
+  border: black 2px solid;
+  color: black;
 }
 .todoInput {
   background-color: white;
