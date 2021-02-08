@@ -28,7 +28,7 @@ addBtn.onclick = function (event) {
     document.querySelector('#itemsList').innerHTML += `
   <div class="${itemClass}">
   <h2>Number: ${count} </h2>
-  <h2>Todo: ${todoItem.value}</h2>
+  <h2>Todo: ${todoItem.value.trim()}</h2>
 </div>
   `;
   }
