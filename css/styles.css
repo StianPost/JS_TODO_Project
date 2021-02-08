@@ -3,7 +3,8 @@
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.formDiv {
+.formDiv,
+v {
   width: 80%;
   margin: auto;
   border: black 2px solid;
@@ -54,4 +55,20 @@
 .odd h2,
 .even h2 {
   margin-left: 5px;
+}
+
+.errorDiv {
+  display: none;
+  height: 50px;
+  width: 80%;
+  margin: auto;
+}
+.errorMSG {
+  background-color: red;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100%;
 }
