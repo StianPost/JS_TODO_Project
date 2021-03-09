@@ -41,3 +41,5 @@ removeBtn.onclick = function (event) {
   document.querySelector('#itemsList').innerHTML = ``;
   count = 0;
 };
+
+// Add remove button so that you can delete individual blocks
