@@ -43,3 +43,4 @@ removeBtn.onclick = function (event) {
 };
 
 // Add remove button so that you can delete individual blocks
+// Remove the count from the card, not needed and just adds extra stuff
