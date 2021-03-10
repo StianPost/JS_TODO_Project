@@ -15,7 +15,7 @@ addBtn.onclick = function (event) {
     console.log('ERROR');
     error.innerHTML = `
     <div class="errorMSG"
-    <h2>Please write valid input! </h2>
+      <h2>Please write valid input! </h2>
     </div>
     `;
     error.style.display = 'block';
@@ -26,10 +26,10 @@ addBtn.onclick = function (event) {
     }, 3000);
   } else {
     document.querySelector('#itemsList').innerHTML += `
-  <div class="${itemClass}">
-  <h2>Number: ${count} </h2>
-  <h2>Todo: ${todoItem.value.trim()}</h2>
-</div>
+    <div class="${itemClass}">
+      <h2>Number: ${count} </h2>
+      <h2>Todo: ${todoItem.value.trim()}</h2>
+    </div>
   `;
   }
 
